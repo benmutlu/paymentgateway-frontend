@@ -63,7 +63,14 @@ class Router {
      * Handle route change
      */
     async handleRouteChange() {
-        const hash = window.location.hash.slice(1) || '/login';
+        let hash = window.location.hash.slice(1);
+        
+        // If no hash, redirect to login
+        if (!hash) {
+            window.location.hash = '#/login';
+            return;
+        }
+        
         const route = this.matchRoute(hash);
         
         if (!route) {

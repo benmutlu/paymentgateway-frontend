@@ -1,0 +1,40 @@
+.
+|-- API_DOCUMENTATION.md
+|-- ARCHITECTURE.md
+|-- DEVELOPMENT_ROADMAP.md
+|-- IMPLEMENTATION_CHECKLIST.md
+|-- PROJECT_STRUCTURE.txt
+|-- PROJECT_SUMMARY.md
+|-- README.md
+|-- assets
+|   |-- icons
+|   |-- images
+|   `-- sounds
+|-- css
+|   `-- main.css
+|-- index.html
+|-- js
+|   |-- app.js
+|   |-- config.js
+|   |-- modules
+|   |   |-- api.js
+|   |   |-- auth.js
+|   |   |-- notifications.js
+|   |   |-- socket.js
+|   |   `-- storage.js
+|   |-- router.js
+|   |-- screens
+|   |   |-- admin.js
+|   |   |-- finance.js
+|   |   |-- home.js
+|   |   |-- login.js
+|   |   |-- payments.js
+|   |   `-- profile.js
+|   `-- utils
+|       |-- charts.js
+|       |-- helpers.js
+|       |-- ui.js
+|       `-- validators.js
+`-- manifest.json
+
+9 directories, 28 files

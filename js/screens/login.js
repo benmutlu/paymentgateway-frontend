@@ -8,6 +8,7 @@ const LoginScreen = {
      * Render login screen
      */
     async render() {
+        console.log('LoginScreen.render() called');
         const app = document.getElementById('app');
         
         app.innerHTML = `
@@ -181,3 +182,4 @@ const LoginScreen = {
 // Export to global Screens object
 if (!window.Screens) window.Screens = {};
 window.Screens.Login = LoginScreen;
+console.log('LoginScreen registered:', window.Screens.Login);

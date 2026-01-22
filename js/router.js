@@ -217,6 +217,7 @@ window.Router = new Router();
 
 // Register routes
 Router.register('/login', async () => {
+    console.log('Route /login triggered, Screens.Login:', window.Screens.Login);
     await Screens.Login.render();
 }, {
     requiresAuth: false,
